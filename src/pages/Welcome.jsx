@@ -6,9 +6,7 @@ function Welcome() {
 
   return (
     <div className="welcome-page">
-
       <div className="welcome-content">
-
         <h1 className="welcome-title">
           Welcome to PopX
         </h1>
@@ -19,23 +17,22 @@ function Welcome() {
           consectetur adipiscing elit,
         </p>
 
-        <Button
-          title="Create Account"
-          variant="primary"
-          onClick={() => navigate("/register")}
-        />
+        <div className="welcome-buttons">
+          <Button
+            title="Create Account"
+            variant="primary"
+            onClick={() => navigate("/register")}
+          />
 
-        <Button
-          title="Already Registered? Login"
-          variant="light"
-          onClick={() => navigate("/login")}
-        />
-
+          <Button
+            title="Already Registered? Login"
+            variant="light"
+            onClick={() => navigate("/login")}
+          />
+        </div>
       </div>
-
     </div>
   );
 }
 
 export default Welcome;
-

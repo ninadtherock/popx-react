@@ -36,6 +36,7 @@ function Login() {
 
       <Button
         title="Login"
+        variant="disabled"
         onClick={() => navigate("/account")}
       />
 

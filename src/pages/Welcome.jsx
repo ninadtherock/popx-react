@@ -21,14 +21,13 @@ function Welcome() {
 
         <Button
           title="Create Account"
+          variant="primary"
           onClick={() => navigate("/register")}
         />
 
-        <div className="button-gap"></div>
-
         <Button
           title="Already Registered? Login"
-          light
+          variant="light"
           onClick={() => navigate("/login")}
         />
 

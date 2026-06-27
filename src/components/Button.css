@@ -1,29 +1,26 @@
-.btn {
-    width: 100%;
-    height: 46px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-family: "Rubik", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    transition: 0.3s;
+.btn{
+    width:100%;
+    height:46px;
+    border:none;
+    border-radius:6px;
+    font-family:"Rubik",sans-serif;
+    font-size:16px;
+    font-weight:500;
+    cursor:pointer;
+    transition:0.3s;
 }
 
-.btn-primary {
-    background: #6C25FF;
-    color: #FFFFFF;
+.primary{
+    background:#6C25FF;
+    color:#FFFFFF;
 }
 
-.btn-primary:hover {
-    background: #5a1ce5;
+.light{
+    background:#CEBAFB;
+    color:#1D2226;
 }
 
-.btn-light {
-    background: #CEBAFB;
-    color: #1D2226;
-}
-
-.btn-light:hover {
-    background: #bea2fa;
+.disabled{
+    background:#CBCBCB;
+    color:#FFFFFF;
 }

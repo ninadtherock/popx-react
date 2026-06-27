@@ -1,10 +1,15 @@
 import "./Button.css";
 
-function Button({ title, light = false, onClick, type = "button" }) {
+function Button({
+  title,
+  onClick,
+  type = "button",
+  variant = "primary",
+}) {
   return (
     <button
       type={type}
-      className={light ? "btn btn-light" : "btn btn-primary"}
+      className={`btn ${variant}`}
       onClick={onClick}
     >
       {title}

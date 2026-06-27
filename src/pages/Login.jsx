@@ -34,12 +34,10 @@ function Login() {
         required
       />
 
-      <button
-        className="login-btn"
+      <Button
+        title="Login"
         onClick={() => navigate("/account")}
-      >
-        Login
-      </button>
+      />
 
     </div>
   );
